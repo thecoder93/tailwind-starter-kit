@@ -203,13 +203,10 @@ Within the download you'll find the following directories and files:
 ```
 .
 |-- README.md
-|-- gulpfile.js
-|-- jsconfig.json
 |-- package.json
 |-- public
 |   |-- apple-icon.png
 |   |-- favicon.ico
-|   |-- index.html
 |   |-- manifest.json
 |   `-- robots.txt
 `-- src
@@ -217,9 +214,16 @@ Within the download you'll find the following directories and files:
     |   `-- img
     |       `-- team-2-800x800.jpg
     |-- components
-    |   |-- Footer.js
-    |   `-- Navbar.js
+    |   `-- Footer.tsx
+    |   `-- Navbar.tsx
     |-- index.js
     `-- views
-        `-- Profile.js
+        `-- Profile.tsx
+    |-- routes
+        `-- index.tsx
+        `-- layout.tsx
+        `-- service-worker.tsx
+`-- entry.dev.tsx
+`-- entry.preview.tsx
+`-- entry.ssr.tsx
 ```
